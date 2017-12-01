@@ -6,6 +6,7 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -32,7 +33,13 @@ public class SearchProductAndPrint {
 		param = new ItemParam();
 	}
 	
+	@AfterClass
+	private void tearDown(){
+		
+		driver.quit();
+	}
 	
+	@Test
 	public void searchItemsAndPrintFiveFirst(){
 		
 		// Informa produto para pesquisa

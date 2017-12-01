@@ -7,6 +7,7 @@ import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 import param.ItemParam;
 import pojo.ItemPojo;
@@ -28,8 +29,11 @@ public class MercadoLivreHomePage {
 	 * @param parametros de manipulacao da pagina
 	 */
 	public void searchItem(ItemParam param) {
-
-		driver.findElement(By.xpath("html/body/header/div/form/input")).sendKeys(param.getItemName());
+		
+		WebElement searchField = driver.findElement(By.xpath("html/body/header/div/form/input"));
+		
+		searchField.clear();
+		searchField.sendKeys(param.getItemName());
 
 		driver.findElement(By.xpath("html/body/header/div/form/button[3]")).click();
 

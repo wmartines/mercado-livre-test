@@ -1,20 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="43746" started-at="2017-12-01T18:22:09Z" finished-at="2017-12-01T18:22:53Z">
+  <suite name="Default suite" duration-ms="41441" started-at="2017-12-01T19:28:47Z" finished-at="2017-12-01T19:29:28Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="43746" started-at="2017-12-01T18:22:09Z" finished-at="2017-12-01T18:22:53Z">
+    <test name="Default test" duration-ms="41441" started-at="2017-12-01T19:28:47Z" finished-at="2017-12-01T19:29:28Z">
       <class name="test.SearchProductAndPrint">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:test.SearchProductAndPrint@3f49dace]" name="setUp" is-config="true" duration-ms="21582" started-at="2017-12-01T16:22:09Z" finished-at="2017-12-01T16:22:31Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.SearchProductAndPrint@1e397ed7]" name="setUp" is-config="true" duration-ms="18388" started-at="2017-12-01T17:28:47Z" finished-at="2017-12-01T17:29:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="takeScreenShot()[pri:0, instance:test.SearchProductAndPrint@3f49dace]" name="takeScreenShot" duration-ms="22145" started-at="2017-12-01T16:22:31Z" finished-at="2017-12-01T16:22:53Z">
+        <test-method status="PASS" signature="searchItemsAndPrintFiveFirst()[pri:0, instance:test.SearchProductAndPrint@1e397ed7]" name="searchItemsAndPrintFiveFirst" duration-ms="10124" started-at="2017-12-01T17:29:05Z" finished-at="2017-12-01T17:29:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchItemsAndPrintFiveFirst -->
+        <test-method status="PASS" signature="takeScreenShot()[pri:0, instance:test.SearchProductAndPrint@1e397ed7]" name="takeScreenShot" duration-ms="12535" started-at="2017-12-01T17:29:15Z" finished-at="2017-12-01T17:29:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShot -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.SearchProductAndPrint@1e397ed7]" name="tearDown" is-config="true" duration-ms="377" started-at="2017-12-01T17:29:28Z" finished-at="2017-12-01T17:29:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- test.SearchProductAndPrint -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
