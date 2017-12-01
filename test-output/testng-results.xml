@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="43746" started-at="2017-12-01T18:22:09Z" finished-at="2017-12-01T18:22:53Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="43746" started-at="2017-12-01T18:22:09Z" finished-at="2017-12-01T18:22:53Z">
+      <class name="test.SearchProductAndPrint">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.SearchProductAndPrint@3f49dace]" name="setUp" is-config="true" duration-ms="21582" started-at="2017-12-01T16:22:09Z" finished-at="2017-12-01T16:22:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="takeScreenShot()[pri:0, instance:test.SearchProductAndPrint@3f49dace]" name="takeScreenShot" duration-ms="22145" started-at="2017-12-01T16:22:31Z" finished-at="2017-12-01T16:22:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+      </class> <!-- test.SearchProductAndPrint -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
