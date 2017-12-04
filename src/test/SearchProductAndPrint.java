@@ -43,7 +43,7 @@ public class SearchProductAndPrint {
 	public void searchItemsAndPrintFiveFirst(){
 		
 		// Informa produto para pesquisa
-		param.setItemName("tenis");
+		param.setItemName("arduino");
 		
 		// Realiza pesquisa e printa resultados
 		mercadoLivreHomePage.searchItem(param);
