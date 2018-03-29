@@ -50,7 +50,6 @@ public class SearchProductAndPrint {
 		mercadoLivreHomePage.searchItem(param);
 		mercadoLivreHomePage.findFiveFirstItemsAndPrint();
 		
-		Assert.assertTrue("pass".equals("fail"));
 	}
 	
 	@Test
