@@ -41,7 +41,6 @@ public class MercadoLivreHomePage {
 			searchField.sendKeys(param.getItemName());
 
 			driver.findElement(By.xpath("html/body/header/div/form/button[3]")).click();
-
 			
 		} catch (Exception e) {
 			
@@ -154,6 +153,5 @@ public class MercadoLivreHomePage {
 
 		// Executa scroll down na pagina
 		jse.executeScript("window.scrollBy(0,7500)", "");
-		
 	}
 }

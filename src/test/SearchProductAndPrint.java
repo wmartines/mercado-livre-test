@@ -6,6 +6,7 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -48,6 +49,8 @@ public class SearchProductAndPrint {
 		// Realiza pesquisa e printa resultados
 		mercadoLivreHomePage.searchItem(param);
 		mercadoLivreHomePage.findFiveFirstItemsAndPrint();
+		
+		Assert.assertTrue("pass".equals("fail"));
 	}
 	
 	@Test
